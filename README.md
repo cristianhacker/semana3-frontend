@@ -24,9 +24,9 @@ Desarrolado en:
 - HTML (`.html`)
 - CSS (`.css`)
 - JavaScript (`.js`)
-  ## LINK(Parte1): https://cristianhacker.github.io./semana3-frontend/semana03/caso9/parte1/
-  ## LINK(Parte2): https://cristianhacker.github.io./semana3-frontend/semana03/caso9/parte2/
-  ## LINK(Parte3): https://cristianhacker.github.io./semana3-frontend/semana03/caso9/parte3/
+  ### LINK(Parte1): https://cristianhacker.github.io./semana3-frontend/semana03/caso9/parte1/
+  ### LINK(Parte2): https://cristianhacker.github.io./semana3-frontend/semana03/caso9/parte2/
+  ### LINK(Parte3): https://cristianhacker.github.io./semana3-frontend/semana03/caso9/parte3/
 
 ## LINK de Informe 03
 https://cristianhacker.github.io./semana3-frontend/informe3/
