@@ -6,6 +6,7 @@ Desarrolado en:
 - HTML (`.html`)
 - CSS (`.css`)
 - JavaScript (`.js`)
+- PHP (`.php`)
 
 ### LINK: https://cristianhacker.github.io./semana3-frontend/semana03/caso7/
 
