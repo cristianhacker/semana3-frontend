@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio11
+
+    </title>
+</head>
+<body>
+    <h1>RESOLUCIÖN DEL EJERCICIO 11</h1>
+    <script>
+        let filas=Number(prompt("Ingrese la cantidad de filas: "))
+        let columnas=Number(prompt("Cantidad de columnas: "))
+        let matriz = []
+        for(let i=0; i<filas;i++){
+            let listColumnas =[];
+            for(let j=0;j<columnas;j++){
+                    let num = Number(prompt(`Ingrese un número para la posición [${i}][${j}]: `));
+                    listColumnas.push(num)}
+            matriz.push(listColumnas);
+        }
+            
+            console.log(matriz)
+        for(let j=0; j< columnas; j++){
+            let suma=0;
+            for(let i=0; i<filas; i++){
+                    suma = suma + matriz[i][j]  ;
+                
+            }
+            console.log(` La suma de filas de columa ${j} es: ${suma}`)
+        }
+
+            
+        
+    </script>
+</body>
+</html>

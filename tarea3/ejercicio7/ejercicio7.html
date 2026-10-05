@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO7</title>
+</head>
+<body>
+    <h1>Resolución de ejercicio 7</h1>
+    <script >
+            let fotos = Number(prompt("Ingrese la cantidad de fotos:"));
+            let precio;
+
+            if (fotos < 10) {
+                precio = 1.50;
+            } else if (fotos <= 30) {
+                precio = 1.00;
+            } else {
+                precio = 0.50;
+            }
+
+            let importe = fotos * precio;
+
+            console.log("Su precio es: " + precio);
+            console.log("Su importe es: " + importe);
+    </script>
+</body>
+</html>

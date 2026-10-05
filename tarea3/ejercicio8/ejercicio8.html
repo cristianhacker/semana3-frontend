@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO8</title>
+</head>
+<body>
+    <h1>Resolucion del ejercicio 8</h1>
+    <script>
+        let parcial = Number(prompt("Ingrese nota de Examen Parcial:  "))
+        let final = Number(prompt("Ingrese la nota del Examen Final: "))
+        let trabajos = Number(prompt("Ingrese el promedio de trabajos: "))
+        let practicas= Number(prompt("Ingrese nota de prácticas: "))
+        let promedio = (parcial+final+trabajos+practicas)/4
+        console.log("Su promedio es: ", promedio)
+
+        if (promedio >= 13){
+            console.log("Usted a aprobado SENATINO")
+        }else{
+            console.log("SENATINO DESPROBADO")
+        }
+    </script>
+</body>
+</html>
